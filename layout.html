@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: #75a7b0;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+nav {
+  float: left;
+  width: 15%;
+  height: 300px; 
+  padding: 20px;
+  background-color: #be9b9b;
+  border:2px solid #be9b9b;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+ 
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+  background-color:rgb(210, 182, 151) ;
+  height: 300px;
+  
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #7e7e5f;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Cities</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Switzerland</a></li>
+      <li><a href="#">SouthKorea</a></li>
+      <li><a href="#">Poland</a></li>
+      <li><a href="#">America</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Switzerland</h1>
+    <p>Switzerland is a small mountainous country located in central Europe. This landlocked country is about the size of New Jersey and is between France and Italy. It is also bordered by Austria, Germany, and Liechtenstein.</p>
+
+      <p>Most of the population lives in the plateau which is between the high Alps in the south and the Jura mountains in the north. The mountainous area in the south is sparsely populated.</p>
+      <img src="https://media.istockphoto.com/id/1855074892/photo/lauterbrunnen-switzerland-during-autumn.webp?b=1&s=170667a&w=0&k=20&c=u40iYoPQVZRrQ1J5BU0xFtLmD4jWjhSgd9OPTDZ8qGk=" alt="switzerland" style="width:150px;margin-left: 170px";>
+      <img src="https://media.istockphoto.com/id/1727481834/photo/zurich-city-waterfront-limmat-river-switzerland.webp?b=1&s=170667a&w=0&k=20&c=1X-02IUbIgyOu7kvncL8JUuWgo5yF7uj1lBfgLnLkiU=" alt="switzerland" style="width:150px;margin-left: 30px;">
+      <img src="https://media.istockphoto.com/id/1652159760/photo/aerial-view-of-car-on-the-mountain-road-in-switzerland.webp?b=1&s=170667a&w=0&k=20&c=Fd1DNh5Phf34PHe3w0sWA1klM-kfHX1G6WXAaBBf6tU=" alt="switzerland" style="width:150px;height:100px;margin-left: 30px;">
+      <img src="https://media.istockphoto.com/id/1401151300/photo/view-of-the-reuss-river-and-old-town-of-lucerne-city-switzerland-view-from-above.webp?b=1&s=170667a&w=0&k=20&c=yQqGdUHMT__44I2kBFWLpFY-LgQzdGCAiVGMxaba4Zs=" alt="switzerland" style="width:150px;margin-left: 30px";>
+  </article>
+</section>
+
+<footer>
+  <p>@2024 copyrights</p>
+</footer>
+
+</body>
+</html>
